@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T00:32:42 EET" name="Default suite" finished-at="2024-03-23T00:32:54 EET" duration-ms="11833">
+  <suite started-at="2024-03-25T01:09:08 EET" name="Default suite" finished-at="2024-03-25T01:09:29 EET" duration-ms="20740">
     <groups>
     </groups>
-    <test started-at="2024-03-23T00:32:42 EET" name="Default test" finished-at="2024-03-23T00:32:54 EET" duration-ms="11833">
+    <test started-at="2024-03-25T01:09:08 EET" name="Default test" finished-at="2024-03-25T01:09:29 EET" duration-ms="20740">
       <class name="MyTestCases.SignUp">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:MyTestCases.SignUp@2dd80673]" started-at="2024-03-23T00:32:42 EET" name="mySetup" finished-at="2024-03-23T00:32:44 EET" duration-ms="1735" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:MyTestCases.SignUp@acdb094]" started-at="2024-03-25T01:09:08 EET" name="mySetup" finished-at="2024-03-25T01:09:08 EET" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="myFirstTest()[pri:0, instance:MyTestCases.SignUp@2dd80673]" started-at="2024-03-23T00:32:44 EET" name="myFirstTest" finished-at="2024-03-23T00:32:54 EET" duration-ms="10057" status="PASS">
+        <test-method signature="myFirstTest()[pri:1, instance:MyTestCases.SignUp@acdb094]" started-at="2024-03-25T01:09:08 EET" name="myFirstTest" finished-at="2024-03-25T01:09:18 EET" duration-ms="10079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFirstTest -->
+        <test-method signature="LogOut()[pri:2, instance:MyTestCases.SignUp@acdb094]" started-at="2024-03-25T01:09:18 EET" name="LogOut" finished-at="2024-03-25T01:09:20 EET" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method signature="LogInProcess()[pri:3, instance:MyTestCases.SignUp@acdb094]" started-at="2024-03-25T01:09:20 EET" name="LogInProcess" finished-at="2024-03-25T01:09:25 EET" duration-ms="5193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInProcess -->
+        <test-method signature="addOneRandomItem()[pri:4, instance:MyTestCases.SignUp@acdb094]" started-at="2024-03-25T01:09:25 EET" name="addOneRandomItem" finished-at="2024-03-25T01:09:29 EET" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneRandomItem -->
       </class> <!-- MyTestCases.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
